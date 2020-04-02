@@ -1,16 +1,15 @@
-header{
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 3vw;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
   z-index: 10;
   height: 75px;
 }
-.menu a{
-  font-size: 1.3rem;
-  padding: 0 3vw;
+
+.menu {
+  a {
+    font-size: 1.3rem;
+    padding: 0 3vw;
+  }
 }
