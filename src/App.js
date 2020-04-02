@@ -7,7 +7,10 @@ function App() {
   return (
     <div>
       <Header/>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis consequuntur, distinctio, dolor doloribus excepturi nam neque, non perferendis quas reprehenderit soluta vero? Accusantium dignissimos dolores eum minus, ratione rerum!
+        <section id="projects"></section>
+        <section id="about"></section>
+        <section id="experience"></section>
+        <section id="contact"></section>
       <Footer/>
     </div>
   );

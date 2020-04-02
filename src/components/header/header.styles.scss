@@ -5,11 +5,17 @@ header {
   padding: 0 3vw;
   z-index: 10;
   height: 75px;
-}
 
-.menu {
-  a {
-    font-size: 1.3rem;
-    padding: 0 3vw;
+  h2 {
+    cursor: context-menu;
+  }
+
+  .menu {
+
+    a {
+      font-size: 1.3rem;
+      padding: 0 3vw;
+    }
+
   }
 }
