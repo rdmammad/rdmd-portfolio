@@ -1,0 +1,22 @@
+.informational__block{
+  padding: 30px;
+
+  .info-title{
+    font-size: 2rem;
+    color: #a2a690;
+  }
+
+  .sub-block{
+    padding: 0 30px;
+  }
+
+  .sub-block .info-title{
+    font-weight: unset;
+    font-size: 1.25rem;
+    color: black;
+  }
+
+  .sub-block .info__description{
+    padding: 0 80px;
+  }
+}
