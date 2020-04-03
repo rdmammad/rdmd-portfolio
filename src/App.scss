@@ -1,0 +1,12 @@
+$bg_img: url("../src/assets/rdmd-unslpash-white.jpg");
+
+.rdmammad__portfolio {
+    .background__header {
+        background: $bg_img center center / cover no-repeat fixed;
+        height: 100vh;
+    }
+
+    section {
+        padding: 0 2vw;
+    }
+}

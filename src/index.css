@@ -3,7 +3,6 @@ html, body {
 }
 body{
   font-family: 'Raleway', sans-serif;
-  padding: 0 2vw;
   margin: 0;
   display: flex;
   flex-direction: column;
