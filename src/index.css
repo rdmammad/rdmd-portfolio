@@ -12,3 +12,17 @@ a{
   color: #000;
   text-decoration: none;
 }
+p{
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2C557E;
+}

@@ -1,0 +1,27 @@
+.container__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+
+  img{
+    border-radius: 7px;
+    width: 100%;
+  }
+
+  .container__info{
+    position: absolute;
+    top: 43%;
+    background-color: aliceblue;
+    padding: 0.9rem 2rem;
+    border-radius: 7px;
+    flex: 0 1 auto;
+    opacity: 0.9;
+
+    p{
+      font-size: 1.5rem;
+      color: gray;
+    }
+  }
+}
