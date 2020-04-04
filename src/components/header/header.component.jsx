@@ -3,7 +3,7 @@ import "./header.styles.scss"
 import Settings from "../settings/settings.component";
 
 const Header = () => (
-    <header>
+    <header id="projects">
         <h2>Raida Mammad</h2>
         <nav className="menu">
             <a href="#projects">Projects</a>

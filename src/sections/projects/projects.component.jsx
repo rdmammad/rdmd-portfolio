@@ -3,7 +3,7 @@ import "./projects.styles.scss";
 import ReactCarousel from "../../components/react-carousel/react-carousel.component";
 
 const Projects = () => (
-    <section id="projects" className="sasa">
+    <section className="rdmammad__projects">
         <ReactCarousel/>
     </section>
 );

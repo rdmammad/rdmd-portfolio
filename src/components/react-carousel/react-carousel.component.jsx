@@ -68,7 +68,7 @@ class ReactCarousel extends React.Component {
                 containerClass="carousel-container"
                 autoPlaySpeed={1000}
                 keyBoardControl={true}
-                removeArrowOnDeviceType={["tablet", "mobile"]}
+                removeArrowOnDeviceType={["tablet", "mobile", "superLargeDesktop", "desktop"]}
                 // focusOnSelect={true}
             >
                 {
