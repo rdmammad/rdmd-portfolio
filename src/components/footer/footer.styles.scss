@@ -3,17 +3,8 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 150px;
+  height: 60px;
   padding: 10px 0;
-
-  .rdmammad__sicials{
-    display: flex;
-    justify-content: center;
-
-    img{
-      border-radius: 30px;
-    }
-  }
 
   p {
     text-align: center;
