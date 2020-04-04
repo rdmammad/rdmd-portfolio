@@ -1,0 +1,10 @@
+.rdmd__custom-button{
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 8px 8px;
+}
+.active{
+  .rdmd__custom-button{
+    border: 2px solid black;
+  }
+}

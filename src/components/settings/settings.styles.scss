@@ -1,7 +1,18 @@
 .header_settings{
   display: flex;
   justify-content: space-around;
-}
-.header_settings div{
-  padding: 0 1vw;
+
+  div{
+    padding: 10px 10px;
+
+    &:last-child{
+      font-weight: bold;
+      padding: 0;
+      color: white;
+    }
+
+    .active &:last-child{
+      color: black;
+    }
+  }
 }
