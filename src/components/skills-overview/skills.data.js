@@ -67,6 +67,6 @@ export const SKILLS_DATA = [
     {
         id: 14,
         title: "Database",
-        image_path: "https://lh3.googleusercontent.com/proxy/YtPfrX3Tkn-KbvmHpdhKVRQVahAyvDF4n1zI3NqJvhR6XjTgLgaHCAcjsFuKUbphFIf7BTw2SpUiapRo0DsdPmezJB8XatOnrBZz4ajyw3Ez9l6XmxNdUPdlonMpwFX_WA",
+        image_path: "https://img.icons8.com/ios/500/database.png",
     },
 ];

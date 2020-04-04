@@ -8,7 +8,6 @@ const Experience = () => (
     <section id="experience">
         <Informational title="Experience">
             <SkillsOverview/>
-            <WorkExperience/>
         </Informational>
     </section>
 );
