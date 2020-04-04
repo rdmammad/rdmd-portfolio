@@ -35,23 +35,27 @@ class ReactCarousel extends React.Component {
                 {
                     id: 1,
                     title: "testour",
-                    img: "https://prod-discovery.edx-cdn.org/media/course/image/d64fa565-a848-4f82-8c07-f2a2d98c3e4e-1cf577279324.small.jpeg",
-                    // img: require("../../assets/testour.png"),
+                    img: require("../../assets/testour.png"),
                 },
                 {
                     id: 2,
                     title: "doublemat",
-                    img: "https://prod-discovery.edx-cdn.org/media/course/image/d64fa565-a848-4f82-8c07-f2a2d98c3e4e-1cf577279324.small.jpeg",
+                    img: require("../../assets/doublemat.png"),
                 },
                 {
                     id: 3,
                     title: "cartoon-friends",
-                    img: "https://prod-discovery.edx-cdn.org/media/course/image/d64fa565-a848-4f82-8c07-f2a2d98c3e4e-1cf577279324.small.jpeg",
+                    img: require("../../assets/cartoon_friends.png"),
                 },
                 {
                     id: 4,
                     title: "daku drilling school",
-                    img: "https://prod-discovery.edx-cdn.org/media/course/image/d64fa565-a848-4f82-8c07-f2a2d98c3e4e-1cf577279324.small.jpeg",
+                    img: require("../../assets/bds.png"),
+                },
+                {
+                    id: 5,
+                    title: "rdmd-clothing",
+                    img: require("../../assets/rdmd-clothing.png"),
                 },
             ],
         };

@@ -19,7 +19,7 @@ class Contact extends React.Component {
         return (
             <section id="contact">
                 <Informational title="Contact">
-                    <Informational title="Contact Me If You Have Any Question:" sub_class="sub-block">
+                    <Informational title="Feel Free To Contact Me If You Have Any Question:" sub_class="sub-block">
                         <div className="rdmammad__sicials">
                             {
                                 socials.map(({id, title, image_path, url}) =>

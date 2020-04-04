@@ -27,3 +27,11 @@ p{
 ::-webkit-scrollbar-thumb {
   background: #848984;
 }
+::selection {
+  background: #848984; /* WebKit/Blink Browsers */
+  color: white;
+}
+::-moz-selection {
+  background: #848984; /* Gecko Browsers */
+  color: white;
+}
