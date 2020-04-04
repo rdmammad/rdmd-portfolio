@@ -66,8 +66,11 @@ class ReactCarousel extends React.Component {
                 ssr={true} // means to render carousel on server-side.
                 infinite={true}
                 containerClass="carousel-container"
-                autoPlaySpeed={1000}
+                autoPlaySpeed={3000}
+                transitionTime={3000}
                 keyBoardControl={true}
+                autoPlay={true}
+                stopOnHover={true}
                 removeArrowOnDeviceType={["tablet", "mobile", "superLargeDesktop", "desktop"]}
                 // focusOnSelect={true}
             >

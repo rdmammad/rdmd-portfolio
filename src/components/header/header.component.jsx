@@ -12,7 +12,7 @@ class Header extends React.Component{
     }
 
     listenScrollEvent = () => {
-        this.setState({header_class: window.scrollY > 100 ? 'active' : ''});
+        this.setState({header_class: window.scrollY > 50 ? 'active' : ''});
     };
 
     componentDidMount() {
@@ -23,7 +23,7 @@ class Header extends React.Component{
         const {header_class} = this.state;
 
         return(
-            <header id='project' className={header_class}>
+            <header className={header_class}>
                 <h2>Raida Mammad</h2>
                 <nav className="menu">
                     <a href="#projects">Projects</a>
