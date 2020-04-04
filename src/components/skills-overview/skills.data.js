@@ -35,6 +35,11 @@ export const SKILLS_DATA = [
     //     image_path: "https://www.codeproject.com/KB/aspnet/YouGradeMVC/MVC.png",
     // },
     {
+        id: 15,
+        title: "NPM",
+        image_path: require("../../assets/npm.svg"),
+    },
+    {
         id: 8,
         title: "AJAX",
         image_path: require("../../assets/ajax.png"),
