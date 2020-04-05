@@ -1,35 +1,23 @@
 import React from "react";
 import "./skills-overview.styles.scss";
-import {SKILLS_DATA} from "./skills.data";
 import Informational from "../informational/informational.component";
 import CustomIcon from "../custom-icon/custom-icon.component";
+import {connect} from "react-redux";
 
-class SkillsOverview extends React.Component {
-    constructor() {
-        super();
+const SkillsOverview = ({skills}) => (
+    <Informational title="Technologies That I Have Enjoyed Working With:" sub_class="sub-block">
+        <div className="skill__list">
+            {
+                skills.map(({id, ...otherProps}) =>
+                    <CustomIcon key={id} {...otherProps}/>
+                )
+            }
+        </div>
+    </Informational>
+);
 
-        this.state = {
-            skills: SKILLS_DATA,
-        };
-    }
+const mapStateToProps = ({skills}) => ({
+    skills: skills.skills_list,
+});
 
-
-    render() {
-        const {skills} = this.state;
-
-        return (
-            <Informational title="Technologies That I Have Enjoyed Working With:" sub_class="sub-block">
-                <div className="skill__list">
-                    {
-                        skills.map(({id, ...otherProps}) =>
-                            <CustomIcon key={id} {...otherProps}/>
-                        )
-                    }
-                </div>
-            </Informational>
-        );
-
-    }
-}
-
-export default SkillsOverview;
+export default connect(mapStateToProps)(SkillsOverview);
